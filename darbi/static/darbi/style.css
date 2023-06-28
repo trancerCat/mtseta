@@ -1,0 +1,22 @@
+#mt-darbi th a, 
+#mt-debtors th a{
+	color:#343434;
+	text-decoration:none;
+}
+
+#mt-darbi>thead, 
+#mt-debtors>thead{
+	vertical-align:middle;
+}
+
+tr:has(.table-danger)>td:first-child{
+	background-color:#f8d7da;
+}
+
+tr:has(.table-warning)>td:first-child{
+	background-color:#fff3cd;
+}
+
+.col-description{
+	font-size:0.7em;
+}

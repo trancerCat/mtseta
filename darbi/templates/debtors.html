@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load render_table from django_tables2 %}
+
+{% block content %}
+	<nav class='navbar navbar-light bg-light'>
+		<div class='container-fluid'>
+			<a class='navbar-brand' href='/'>
+				<img src="{% static 'darbi/mt-seta__logo.png' %}" alt='' width='' height='24' class='d-inline-block align-text-top'>
+				MT-Sēta
+			</a>
+			<h3>Parādnieku saraksts</h3>
+			<div class="d-flex">
+				<a href='../' class='btn btn-outline-success'>
+					Pie objektiem
+				</a>
+			</div>
+		</div>
+	</nav>
+	{% render_table table %}
+{% endblock %}

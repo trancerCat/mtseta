@@ -1,0 +1,15 @@
+#result_list thead th.sortable{
+	white-space:unset;
+}
+
+.column-title{
+	min-width:200px;
+}
+
+.column-description{
+	min-width:250px;
+}
+
+.field-description .vTextField{
+	width:80em;
+}
