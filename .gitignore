@@ -3,9 +3,15 @@
 
 # Ignore files
 .gitignore
+manage.py
+passenger_wsgi.py
 mtdarbi/settings.py
 
 # Ignore dirs
+**/__pycache__/
+productionfiles/
+public/
+tmp/
 
 # Ignore dbs
 db.sqlite3
