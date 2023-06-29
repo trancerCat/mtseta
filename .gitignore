@@ -13,5 +13,5 @@ productionfiles/
 public/
 tmp/
 
-# Ignore dbs
+# Ignore data bases
 db.sqlite3
