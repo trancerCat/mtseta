@@ -7,7 +7,7 @@ manage.py
 passenger_wsgi.py
 mtdarbi/settings.py
 
-# Ignore dirs
+# Ignore directories
 **/__pycache__/
 productionfiles/
 public/
