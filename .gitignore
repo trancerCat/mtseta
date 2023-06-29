@@ -3,9 +3,9 @@
 
 # Ignore files
 .gitignore
+mtdarbi/settings.py
 
 # Ignore dirs
-mtdarbi/settings.py
 
 # Ignore dbs
 db.sqlite3
