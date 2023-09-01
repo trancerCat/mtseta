@@ -17,6 +17,9 @@ tr:has(.table-warning)>td:first-child{
 	background-color:#fff3cd;
 }
 
-.col-description{
-	font-size:0.7em;
+@media only screen and (min-width: 3000px){
+	.col-description{
+		min-width:1850px;
+		font-size:1em; 
+	}
 }
